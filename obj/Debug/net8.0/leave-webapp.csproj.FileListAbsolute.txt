@@ -60,3 +60,6 @@
 /Users/dikpaal/Desktop/main/code/projects/leave-webapp/obj/Debug/net8.0/leave-we.18CCD3F8.Up2Date
 /Users/dikpaal/Desktop/main/code/projects/leave-webapp/bin/Debug/net8.0/MySqlConnector.dll
 /Users/dikpaal/Desktop/main/code/projects/leave-webapp/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/dikpaal/Desktop/main/code/projects/leave-webapp/bin/Debug/net8.0/MailKit.dll
+/Users/dikpaal/Desktop/main/code/projects/leave-webapp/bin/Debug/net8.0/MimeKit.dll
+/Users/dikpaal/Desktop/main/code/projects/leave-webapp/bin/Debug/net8.0/BouncyCastle.Crypto.dll
