@@ -19,7 +19,7 @@ namespace leave_webapp.Models
 
         [StringLength(50)]
         public string Message { get; set; }
-
+        [DataType(DataType.Date)]
         public DateTime Date { get; set; }
     }
 }
