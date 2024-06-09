@@ -7,4 +7,9 @@
     <RootNamespace>leave_webapp</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MySql.EntityFrameworkCore" Version="8.0.2" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.0-preview.1" />
+  </ItemGroup>
+
 </Project>

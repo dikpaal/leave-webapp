@@ -1,0 +1,30 @@
+@page
+@model leave_webapp.Pages.LeaveApplications.IndexModel
+
+<h2>Leave Applications</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>EmployeeId</th>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Email</th>
+            <th>Message</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.LeaveApplication)
+        {
+            <tr>
+                <td>@item.EmployeeId</td>
+                <td>@item.FirstName</td>
+                <td>@item.LastName</td>
+                <td>@item.Email</td>
+                <td>@item.Message</td>
+                <td>@item.Date.ToString("yyyy-MM-dd")</td>
+            </tr>
+        }
+    </tbody>
+</table>
